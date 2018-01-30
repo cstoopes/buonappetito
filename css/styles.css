@@ -251,7 +251,8 @@ font-family: 'Cormorant Garamond', serif;
 #appetitomenu .accordionstyles {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5em;
-  color: rgb(124, 106, 59) !important;
+  /* color: rgb(124, 106, 59) !important; */
+  color: white;
 }
 
 #appetitomenu .accordionstylescontent p{
