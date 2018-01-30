@@ -753,3 +753,123 @@ font-family: 'Cormorant Garamond', serif;
     padding-bottom: 10px;
     color: white;
 }
+
+
+
+/*!!!!!!!!!!CONTACT PAGE!!!!!!!!!!*/
+
+#contact {
+  background:url(../img/index-bg.png) no-repeat center center fixed;
+}
+
+#contact .top-bar {
+    background-color: rgba(255, 218, 124, 0.4);
+}
+
+#contact nav ul {
+  font-size: 1.25em;
+}
+
+#contact .navbg {
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Pacifico', cursive;
+}
+
+#contact .navdesign li {
+  /* margin-right: 3em; */
+  font-size: 1.2em;
+  styles: none;
+  text-decoration: none;
+  color: black;
+}
+
+#contact li a:link, li a:visited {
+  color: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#contact li a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #c4a65c;
+}
+
+#contact .logo {
+  margin-left: 2em;
+}
+
+
+#contact .title {
+  font-family: 'Alex Brush', cursive;
+  margin-top: 1.2em;
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+}
+
+#contact .textbox {
+  padding: 20px;
+}
+
+#contact .content {
+  text-align: center;
+}
+
+
+#contact h2 {
+  color: rgb(255,255,255);
+  font-family: 'Alex Brush', cursive;
+}
+
+#contact h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#contact .caption {
+  color: white;
+  padding-top: 2em;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+#contact .captiond {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+
+}
+#contact .p, a.href{
+  color: white;
+  font-size: 2em;
+}
+
+#contact .contact {
+  text-align: center;
+}
+
+#contact h1, h4 {
+  color: white;
+  font-family: 'Alex Brush', cursive;
+  font-size: 3em;
+}
+
+#contact .contactbackground {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+#contact .font {
+  font-style: oblique;
+  font-size: 1.5em;
+}
+
+#contact footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1em;
+}
+
+#contact .s {
+  color: white;
+  font-size: 1.5em;
+}
