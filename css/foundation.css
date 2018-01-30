@@ -2291,11 +2291,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #1779ba;
+  color: white;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #1468a0; }
+    color: #dbdbdb; }
   a img {
     border: 0; }
 
@@ -2506,14 +2506,14 @@ ul.no-bullet, ol.no-bullet {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #14679e;
-    color: #fefefe; }
+    background-color: #FFF;
+    color: #000; }
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
     font-size: 0.75rem; }
   .button.large {
-    font-size: 1.25rem; }
+    font-size: 1.5rem; }
   .button.expanded {
     display: block;
     width: 100%;
@@ -3002,7 +3002,7 @@ select {
 
 .accordion {
   margin-left: 0;
-  background: #fefefe;
+  background: rgba(255, 218, 124, 0.5);
   list-style-type: none; }
   .accordion[disabled] .accordion-title {
     cursor: not-allowed; }
@@ -3026,7 +3026,7 @@ select {
     border-bottom: 1px solid #e6e6e6;
     border-radius: 0 0 0 0; }
   .accordion-title:hover, .accordion-title:focus {
-    background-color: #e6e6e6; }
+    background-color: rgba(219, 187, 107, 0.5); }
   .accordion-title::before {
     position: absolute;
     top: 50%;
@@ -3041,7 +3041,7 @@ select {
   padding: 1rem;
   border: 1px solid #e6e6e6;
   border-bottom: 0;
-  background-color: #fefefe;
+  background-color: rgba(255, 218, 124, 0.5);
   color: #0a0a0a; }
   :last-child > .accordion-content:last-child {
     border-bottom: 1px solid #e6e6e6; }
@@ -4988,7 +4988,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  /* border: solid 4px #fefefe; */
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0; }
@@ -5002,7 +5002,7 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: rgba(255, 218, 124, 0.4);
   color: #fefefe;
   display: -ms-flexbox;
   display: flex;
@@ -5133,7 +5133,7 @@ a.thumbnail {
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+  /* background-color: black;} */}
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
