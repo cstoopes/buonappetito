@@ -106,7 +106,8 @@
 
 /* MENU LUNCH */
 #appetitomenu  {
-  background:url(../img/flagbg.png) no-repeat center center fixed;
+  background:url(../img/dinnerbg.png) no-repeat center center fixed;
+  /* background:url(../img/flagbg.png) no-repeat center center fixed; */
   /* background:url(../img/lunchbg.png) no-repeat center center fixed; */
   /* background-size: 100%; */
 }
